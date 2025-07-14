@@ -1,102 +1,76 @@
-Here is a professional and clean `README.md` file you can use for your Product Showcase project:
 
-````markdown
-# 🛍️ Product Showcase Application
 
-This is a simple React.js Product Showcase application built using **Vite**, **React Router**, **Axios**, **Tailwind CSS**, **Framer Motion**, and **React Hot Toast**. The app fetches products from the Fake Store API and allows you to:
-- View product listings
-- Search, filter, and sort products
-- View product details with rating
-- Add or remove products from Cart
-- Persistent Cart using `localStorage`
-- Light/Dark Mode Toggle
-- Animated Landing Page
+# Product Showcase Application
 
----
+This is a Product Showcase Web Application built with React.js. The application uses Fake Store API to display products. Users can view product listings, search, filter, sort, see product details, and manage cart items. The cart is saved in localStorage and the app supports dark/light mode.
 
-## 🚀 Features
-- **Landing Page with Animation**
-- **Product Listing Page** with Search, Filter, and Sort options
-- **Product Detail Page** with product description and rating
-- **Add to Cart & Remove from Cart** functionality with toast notifications
-- **Cart Page** to view and manage added products
-- **Dark/Light Mode**
-- **LocalStorage Persistence**
-- **Responsive Design using Tailwind CSS**
+## Features
 
----
+* Animated landing page using Framer Motion
+* Product listing page with search, filter, and sort options
+* Product details page with description, price, category, and rating
+* Add to cart and remove from cart functionality
+* Persistent cart using localStorage
+* Dark and light mode toggle
+* Responsive UI built with Tailwind CSS
+* Toast notifications using React Hot Toast
 
-## 📦 Tech Stack
-- React.js (Vite)
-- React Router DOM
-- Tailwind CSS
-- Axios (for API calls)
-- React Hot Toast (notifications)
-- Framer Motion (animations)
+## Technologies Used
 
----
+* React.js with Vite
+* React Router DOM
+* Tailwind CSS
+* Axios for API requests
+* React Hot Toast for notifications
+* Framer Motion for animations
+* Context API for global cart management
 
-## 🖥️ Installation & Running Locally
+## Getting Started
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/paramjeetsingh007/product-showcase.git
+### 1. Clone the repository
+
+git clone [https://github.com/paramjeetsingh007/product-showcase.git](https://github.com/paramjeetsingh007/product-showcase.git)
 cd product-showcase
-````
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
-```bash
 npm install
-```
 
-### 3. Run the Application
+### 3. Start the application
 
-```bash
 npm run dev
-```
 
----
+The application will run at [http://localhost:5173](http://localhost:5173)
 
-## 🖼️ API Used
+## API Used
 
-* [Fake Store API](https://fakestoreapi.com/)
+The application fetches product data from Fake Store API:
+[https://fakestoreapi.com/products](https://fakestoreapi.com/products)
 
----
+## Folder Structure
 
-## 📁 Folder Structure
-
-```
-src/
-├── components/
-│   ├── Navbar.jsx
-│   └── ProductCard.jsx
-├── context/
-│   └── CartContext.jsx
-├── pages/
-│   ├── Landing.jsx
-│   ├── Home.jsx
-│   ├── ProductDetail.jsx
-│   └── Cart.jsx
+src
+└── components
+└── Navbar.jsx
+└── ProductCard.jsx
+└── context
+└── CartContext.jsx
+└── pages
+└── Landing.jsx
+└── Home.jsx
+└── ProductDetail.jsx
+└── Cart.jsx
 └── App.jsx
 └── main.jsx
-```
+
+## Live Demo
+
+[You can deploy your project on Netlify or Vercel and add the live link here.](https://product-showcase-zeta.vercel.app/)
+
+## Author
+
+Paramjeet Singh
+GitHub: [https://github.com/paramjeetsingh007](https://github.com/paramjeetsingh007)
 
 
 
-## 💡 Author
-
-* Paramjeet Singh
-* GitHub: [@paramjeetsingh007](https://github.com/paramjeetsingh007)
-
----
-
-## 🎁 Contribution
-
-Feel free to fork this repository and submit pull requests. Open issues for suggestions or improvements.
-
----
-
-## 📃 License
-
-This project is licensed under the [MIT License](LICENSE).
