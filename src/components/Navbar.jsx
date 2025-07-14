@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <nav className='flex justify-between items-center p-4 shadow-md bg-white dark:bg-gray-900 text-black dark:text-white'>
-      <Link to='/' className='text-xl font-bold'>Product Showcase</Link>
+      <Link to='/home' className='text-xl font-bold'>Product Showcase</Link>
       <div className='flex gap-4 items-center'>
         <button onClick={toggleTheme} className='border px-3 py-1 rounded dark:border-white'>
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
