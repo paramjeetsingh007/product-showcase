@@ -65,7 +65,7 @@ src
 
 ## Live Demo
 
-[You can deploy your project on Netlify or Vercel and add the live link here.](https://product-showcase-zeta.vercel.app/)
+Live Demo (https://product-showcase-zeta.vercel.app/)
 
 ## Author
 
