@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: #F7A072;
+    transition: background 0.3s ease;
+}
 
-
-
+html.dark body {
+    background: #3d405b;
+}
