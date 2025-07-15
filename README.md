@@ -1,76 +1,89 @@
 
-
 # Product Showcase Application
 
-This is a Product Showcase Web Application built with React.js. The application uses Fake Store API to display products. Users can view product listings, search, filter, sort, see product details, and manage cart items. The cart is saved in localStorage and the app supports dark/light mode.
+A modern and responsive Product Showcase Web Application built with React.js and Redux. The application displays products using the Fake Store API. Users can browse product listings, search, filter, sort, view product details, and manage cart items with persistence via localStorage. It also features dark/light theme support and beautiful UI with Tailwind CSS.
 
-## Features
+##  Features
 
-* Animated landing page using Framer Motion
-* Product listing page with search, filter, and sort options
-* Product details page with description, price, category, and rating
-* Add to cart and remove from cart functionality
-* Persistent cart using localStorage
-* Dark and light mode toggle
-* Responsive UI built with Tailwind CSS
-* Toast notifications using React Hot Toast
+- Animated landing page using Framer Motion
+- 🛍Product listing page with search, filter, and sort options
+- Product details page with description, price, category, and rating
+- Add to cart and remove from cart functionality
+- Persistent cart using localStorage and Redux
+- Dark and Light mode toggle
+- Responsive and clean UI with Tailwind CSS
+- Toast notifications using React Hot Toast
+- Fast development with Vite
 
-## Technologies Used
+##  Technologies Used
 
-* React.js with Vite
-* React Router DOM
-* Tailwind CSS
-* Axios for API requests
-* React Hot Toast for notifications
-* Framer Motion for animations
-* Context API for global cart management
+- React.js (Vite)
+- React Router DOM (Routing)
+- Redux Toolkit (State Management)
+- Tailwind CSS (Styling)
+- Axios (API Requests)
+- React Hot Toast (Notifications)
 
-## Getting Started
+
+## 📂 Getting Started
 
 ### 1. Clone the repository
 
-git clone [https://github.com/paramjeetsingh007/product-showcase.git](https://github.com/paramjeetsingh007/product-showcase.git)
+```bash
+git clone https://github.com/paramjeetsingh007/product-showcase.git
 cd product-showcase
+````
 
 ### 2. Install dependencies
 
+```bash
 npm install
+```
 
 ### 3. Start the application
 
+```bash
 npm run dev
+```
 
-The application will run at [http://localhost:5173](http://localhost:5173)
+The application will be available at [http://localhost:5173](http://localhost:5173)
 
-## API Used
+## 📡 API Used
 
-The application fetches product data from Fake Store API:
-[https://fakestoreapi.com/products](https://fakestoreapi.com/products)
+This project uses [Fake Store API](https://fakestoreapi.com/products) to fetch product data.
 
-## Folder Structure
+## 🗂️ Project Structure
 
-src
-└── components
-└── Navbar.jsx
-└── ProductCard.jsx
-└── context
-└── CartContext.jsx
-└── pages
-└── Landing.jsx
-└── Home.jsx
-└── ProductDetail.jsx
-└── Cart.jsx
-└── App.jsx
+```
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   └── ProductCard.jsx
+│
+├── pages/
+│   ├── Landing.jsx
+│   ├── Home.jsx
+│   ├── ProductDetail.jsx
+│   └── Cart.jsx
+│
+├── redux/
+│   ├── store.js
+│   └── cartSlice.js
+│
+├── App.jsx
 └── main.jsx
+```
 
-## Live Demo
+## 🔗 Live Demo
 
-Live Demo (https://product-showcase-zeta.vercel.app/)
+Live Demo: [https://product-showcase-zeta.vercel.app/](https://product-showcase-zeta.vercel.app/)
 
-## Author
+## 🙋‍♂️ Author
 
-Paramjeet Singh
-GitHub: [https://github.com/paramjeetsingh007](https://github.com/paramjeetsingh007)
+**Paramjeet Singh**
+
+* GitHub: [https://github.com/paramjeetsingh007](https://github.com/paramjeetsingh007)
 
 
 
