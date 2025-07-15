@@ -19,7 +19,7 @@ function ProductCard({ product }) {
   };
 
   return (
-    <div className="border border-white/40 dark:border-neutral-800/40 p-4 flex flex-col rounded-2xl shadow-xl backdrop-blur-lg bg-[#EDDEA4] dark:bg-gray-800/30 hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+    <div className="border border-white/40 dark:border-neutral-800/40 p-4 flex flex-col rounded-2xl shadow-xl backdrop-blur-lg bg-white dark:bg-gray-800/30 hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
       <Link to={`/product/${product.id}`}>
         <img
           src={product.image}
